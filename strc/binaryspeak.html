@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/clib.css">
+    <link rel="stylesheet" href="/css/speak.css">
+    <script src="/scripts/binaryspeak.js" defer></script>
+    <title>Binaryspeak</title>
+</head>
+<body class="container-centered">
+    <nav class="nav-bar">
+        <div>
+            <a href="/index.html" class="link nav-bar-brand-link ">Urname Translator</a>
+        </div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a href="binaryspeak.html" class="link nav-bar-link-active nav-bar-link">Binaryspeak</a>
+        </li>
+        <li class="list-item-inline">
+            <a href="leetspeak.html" class="link nav-bar-link">Leetspeak</a>
+    </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section">
+                <div class="art-display">
+
+
+                    <h3 class="input-label-text margin-high-bottom">
+                        <label for="input-text">
+                            Type your text below to convert to Binary Translator
+                        </label>
+                    </h3>
+
+                    <img src="/media/images/binary.png" alt="image url not available">
+
+                    <p class="margin-high-bottom">
+                        Convert from Strings to Binary representation of 1s and 0s. A binary number is a number expressed in the binary numeral system or base-2 numeral system which represents numeric values using two different symbols: typically 0 (zero) and 1 (one). This translator takes the numberical value of the characters and converts them to binary. 
+                        
+                    </p>
+
+                    <textarea type="text" id="input-text" placeholder="Please type in your text here so that our Binary translator can do the magic and convert it to Binary ..." spellcheck="false" rows="8" class="textarea-box margin-med-bottom"></textarea>
+
+                    <button class="btn-translate margin-high-bottom" type="submit">Translate</button>
+
+                    <p>Transalation will come here 👇</p>
+                    
+                    <div class="result-text margin-high-bottom">
+                        <h3 class="input-label-text margin-med-bottom">In Binary Speak...</h3>
+                        <span id="minion-text"></span>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+    
+</body>
+</html>
